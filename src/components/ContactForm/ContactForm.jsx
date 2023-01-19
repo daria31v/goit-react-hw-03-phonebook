@@ -47,7 +47,7 @@ export class ContactForm extends Component {
         // validationSchema={schema}
       >
         <Form 
-        // autoComplete="off"
+        autoComplete="off"
         >
           <FormAddContacts>
             <Label htmlFor={this.nameInputId}>Name
