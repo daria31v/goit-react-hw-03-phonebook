@@ -4,7 +4,7 @@ export const AddContactBtn = styled.button`
     margin-top: 20px;
     display: block;
     cursor: pointer;
-    background-color: lightgreen;
+    background-color:  #72759c;
     border-radius: 4px;
     border: 1px dashed green;
     width: 100px;

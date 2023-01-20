@@ -63,13 +63,13 @@ export class App extends Component {
   }
   componentDidUpdate(prevProps, prevState) {
     if (this.state.contacts !== prevState.contacts) {
-      console.log('UPDAYTE CONTACT')
+      
       localStorage.setItem('contacts', JSON.stringify(this.state.contacts))
     }
   }
 
   render() {
-    console.log("App render")
+   
   const fesultFilter = this.searchContact()
 
     return (
